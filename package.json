@@ -1,0 +1,56 @@
+{
+  "name": "react-scrollback",
+  "version": "0.1.0",
+  "description": "react-scroll with resuming position",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack -p"
+  },
+  "author": "nslobodian",
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "plugins": [
+      "transform-object-rest-spread",
+      "transform-react-jsx",
+      "transform-class-properties"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nslobodian/react-scrollback.git"
+  },
+  "keywords": [
+    "react",
+    "scroll",
+    "scrollback",
+    "component"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nslobodian/react-scrollback/issues"
+  },
+  "homepage": "https://github.com/nslobodian/react-scrollback#readme",
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "eslint-plugin-class-property": "^1.1.0"
+  }
+}
