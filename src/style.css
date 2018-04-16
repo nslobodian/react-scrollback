@@ -1,0 +1,36 @@
+.scroll-wrapper {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 50px;
+  height: 100%;
+}
+
+.scroll-wrapper:hover {
+  background-color:rgba(150, 150, 150, 0.1);
+}
+
+.arrow-wrapper {
+  position: fixed;
+  right: 15px;
+  bottom: 30px;
+}
+
+i.arrow {
+  border: solid #333;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 5px;
+  -webkit-transition: transform .7s; /* Safari */
+  transition: transform .7s;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
