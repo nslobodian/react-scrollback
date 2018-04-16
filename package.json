@@ -1,6 +1,6 @@
 {
   "name": "react-scrollback",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "react-scroll with resuming position",
   "main": "build/index.js",
   "scripts": {
